@@ -1,0 +1,50 @@
+/* components/table.wxss */
+.table-fixed {
+  position: relative;
+  overflow: hidden;
+}
+.table__fixed-columns {
+  position: absolute;
+  left: 0;
+  background-color: #fff;
+  /* 元素永远不会成为鼠标事件的target。但是，当其后代元素的pointer-events属性指定其他值时，鼠标事件可以指向后代元素，在这种情况下，鼠标事件将在捕获或冒泡阶段触发父元素的事件侦听器。 */
+  pointer-events: none; /*固定列不接受触摸，相当于滚动表格本身*/
+  z-index: 100;
+}
+.table {
+  width: 100%;
+}
+.tr {
+  /* 用来处理元素中的空白 */
+  /* 连续的空白会被合并，但文本内的换行无效 */
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 0;
+}
+.tr:nth-child(even) {
+  background-color: #FAFAFA;
+}
+.td,
+.th {
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  color: #666;
+  border-right: 1px solid #E6E6E6;
+  border-bottom: 1px solid #E6E6E6;
+}
+.td:first-child,
+.th:first-child {
+  border-left: 1px solid #E6E6E6;
+}
+.th {
+  font-size: 24rpx;
+  line-height: 34rpx;
+  padding: 6rpx 0;
+  border-top: 1px solid #E6E6E6;
+}
+.td {
+  font-size: 28rpx;
+  line-height: 38rpx;
+  padding: 16rpx 0;
+}

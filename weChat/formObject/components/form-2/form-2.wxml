@@ -1,0 +1,52 @@
+<!-- <view class="table">
+  <view class="">
+    <view class="table-tr" wx:for="{{formData.listRow}}" wx:key="{{index}}" wx:for-item="item">
+      <view class="table-th">{{item.y}}</view>
+      <view class="table-th">{{item.z}}</view>
+      <view class="table-th">{{item.g}}</view>
+    </view>
+  </view>
+</view> -->
+
+<!-- <view class="table">
+  <swiper>
+    <view>
+      <view wx:for="{{formData.listRow}}" wx:key="{{indexFather}}" wx:for-item="itemFather">
+        <swiper-item>
+          <view class="table-tr" wx:for="{{itemFather}}" wx:key="{{index}}" wx:for-item="item">
+            <view class="table-th">{{item.y}}</view>
+            <view class="table-th">{{item.z}}</view>
+            <view class="table-th">{{item.g}}</view>
+          </view>
+        </swiper-item>
+      </view>
+    </view>
+  </swiper>
+</view> -->
+
+<view class="formChart">
+  <view class="left">
+    <view wx:for="{{formData.firstColumn}}" wx:key="{{index}}">
+      <view class="table-tr">
+        <view class="table-th">{{item}}</view>
+      </view>
+    </view>
+  </view>
+  <view class="right">
+    <view class="table">
+      <swiper>
+        <view>
+          <view wx:for="{{formData.listRow}}" wx:key="{{indexFather}}" wx:for-item="itemFather">
+            <swiper-item>
+              <view class="table-tr" wx:for="{{itemFather}}" wx:key="{{index}}" wx:for-item="item">
+                <view class="table-th">{{item.y}}</view>
+                <view class="table-th">{{item.z}}</view>
+                <view class="table-th">{{item.g}}</view>
+              </view>
+            </swiper-item>
+          </view>
+        </view>
+      </swiper>
+    </view>
+  </view>
+</view>

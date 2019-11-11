@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="index-container">
+  <view class="form">
+    <form></form>
+  </view>
+</view>

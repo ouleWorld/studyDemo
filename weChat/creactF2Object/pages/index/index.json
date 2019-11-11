@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "histogram": "/components/histogram/histogram"
+  }
+}

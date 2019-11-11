@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="histogramChart">
+    <histogram id="histogram" chart-id="histogram" chart-data="{{chartData}}"></histogram>
+  </view>
+</view>

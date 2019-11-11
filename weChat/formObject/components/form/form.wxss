@@ -1,0 +1,49 @@
+.formContainer {
+  /* width: 90%; */
+  /* border: black solid 1px; */
+  width: 98%;
+  overflow: auto;
+  border: 1rpx solid gray;
+  margin: 0 auto;
+}
+
+.table, .table div {
+  margin: 0 auto;
+}
+.table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse; 
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.table-tr {
+  display: table-row; 
+  height: 92rpx;
+}
+.table-th {
+  display: table-cell; 
+  font-weight: bold;
+  border: 1rpx solid gray;
+  text-align: center;
+  vertical-align: middle;
+}
+.table-td {
+  display: table-cell;
+  border: 1rpx solid gray;
+  text-align: center;
+  vertical-align: middle;
+}
+.table-tr > .table-th,
+.table-tr > .table-td {
+  /* 如果这里不设置一个 min-width，那么会造成分开的表格宽度会不一致 */
+  /* 如果需要验证正点：注释掉 min-width，添加上一个 width即可 */
+  min-width: 150rpx;
+  box-sizing: border-box;
+}
+
+.scroll-box {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}

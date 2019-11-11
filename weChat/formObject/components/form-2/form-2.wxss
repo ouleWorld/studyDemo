@@ -1,0 +1,47 @@
+.formChart {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.left {
+  width: 20%;
+  height: 1200rpx;
+}
+.left > view {
+  height: 92rpx;
+}
+.right {
+  width: 80%;
+  height: 1200rpx;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+swiper {
+  height: 1200rpx;
+}
+.table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse; 
+  box-sizing: border-box;
+  /* margin: 0 auto; */
+}
+.table-tr {
+  display: table-row; 
+  height: 92rpx;
+}
+.table-th {
+  display: table-cell; 
+  font-weight: bold;
+  border: 1rpx solid gray;
+  text-align: center;
+  vertical-align: middle;
+  width: 200rpx;
+}
+.table-td {
+  display: table-cell;
+  border: 1rpx solid gray;
+  text-align: center;
+  vertical-align: middle;
+}

@@ -1,0 +1,79 @@
+<!--components/table.wxml-->
+<view class="table-fixed">
+  <!-- S 固定列 -->
+  <view class="table__fixed-columns">
+    <!-- S 横竖方向都要固定的左上角单元格 -->
+    <view class="table__fixed-common tr">
+      <view class="fixed-th th"
+        wx:for="{{fixedCols[0]}}"
+        wx:key="{{index}}"
+        style="width: {{colWidths[index]}}rpx;">
+        {{item}}
+      </view>
+    </view>
+    <!-- E 横竖方向都要固定的左上角单元格 -->
+
+    <!-- S 固定列（除表头） -->
+    <scroll-view class="table__fixed-others"
+      scroll-y
+      scroll-top="{{scrollTop}}"
+      style="height: {{tbodyHeight}}rpx;">
+      <view wx:for="{{firstColsOther}}"
+        wx:for-item="row"
+        wx:for-index="rowIndex"
+        wx:key="{{rowIndex}}"
+        class="tr">
+        <view class="td"
+          wx:for="{{row}}"
+          wx:for-item="col"
+          wx:for-index="colIndex"
+          wx:key="{{colIndex}}"
+          style="width: {{colWidths[colIndex]}}rpx;">
+          {{col}}
+        </view>
+      </view>
+    </scroll-view>
+    <!-- E 固定列（除表头） -->
+  </view>
+  <!-- E 固定列 -->
+
+  <!-- S 完整的表格 -->
+  <scroll-view class="table" scroll-x>
+    <!-- S 固定表头（完整） -->
+    <view class="thead" style="width: {{totalWidth}}rpx;">
+      <view class="tr">
+        <view class="th"
+          wx:for="{{thead}}"
+          wx:key="{{index}}"
+          style="width: {{colWidths[index]}}rpx;">
+          {{item}}
+        </view>
+      </view>
+    </view>
+    <!-- E 固定表头（完整） -->
+
+    <!-- S tbody（完整） -->
+    <scroll-view class="tbody"
+      scroll-y
+      throttle="{{false}}"
+      bindscroll="scrollVertical"
+      style="width: {{totalWidth}}rpx; height: {{tbodyHeight}}rpx;">
+      <view class="tr"
+        wx:for="{{tbody}}"
+        wx:for-item="tr"
+        wx:for-index="trIndex"
+        wx:key="{{trIndex}}">
+        <view class="td"
+          wx:for="{{tr}}"
+          wx:for-item="td"
+          wx:for-index="tdIndex"
+          wx:key="{{tdIndex}}"
+          style="width: {{colWidths[tdIndex]}}rpx;">
+          {{td}}
+        </view>
+      </view>
+    </scroll-view>
+    <!-- S tbody（完整） -->
+  </scroll-view>
+  <!-- E 完整的表格 -->
+</view>
