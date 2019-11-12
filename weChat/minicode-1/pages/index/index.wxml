@@ -1,4 +1,0 @@
-<view class="container">
-  <!-- 固定头和列的 table 组件 -->
-  <table table="{{tableData}}" fixedColsNum="{{fixedColsNum}}" tbodyHeight="{{tbodyHeight}}"></table>
-</view>

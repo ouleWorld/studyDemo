@@ -1,6 +1,6 @@
 {
   "navigationBarTitleText": "固定头和列的 table 组件",
   "usingComponents": {
-    "table": "/components/table/table"
+    "fixedTable": "/components/fixedTable/fixedTable"
   }
 }
