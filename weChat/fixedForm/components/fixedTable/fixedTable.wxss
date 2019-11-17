@@ -2,6 +2,9 @@
 .table-fixed {
   position: relative;
   overflow: hidden;
+  width: 95vw;
+  height: 95vh;
+  margin: 0 auto;
 }
 .table__fixed-columns {
   position: absolute;

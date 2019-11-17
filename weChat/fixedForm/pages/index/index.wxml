@@ -1,4 +1,11 @@
 <view class="container">
-  <!-- 固定头和列的 table 组件 -->
-  <fixedTable table="{{tableData}}" fixedColsNum="{{fixedColsNum}}" tbodyHeight="{{tbodyHeight}}"></fixedTable>
+  <text>普通表格组件 commonTable</text>
+  <commonTable></commonTable>
+  <text>固定行列组件 fixedTable</text>
+  <fixedTable 
+    table="{{tableData}}" 
+    fixedColsNum="{{fixedColsNum}}" 
+    fixedRowsNum="{{fixedRowsNum}}"
+    tbodyHeight="{{tbodyHeight}}"
+    showColsNumber="{{showColsNumber}}"></fixedTable>
 </view>

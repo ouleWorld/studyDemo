@@ -1,23 +1,9 @@
 <!-- 第一版 -->
 <view class="table">
-  <view class="table-tr">
-    <view class="table-th">省份/直辖市</view>
-    <view class="table-th">GDP</view>
-    <view class="table-th">增长率</view>
-  </view>
-  <view class="table-tr">
-    <view class="table-td">广东</view>
-    <view class="table-td">72812456</view>
-    <view class="table-td">8.0%</view>
-  </view>
-    <view class="table-tr">
-    <view class="table-td">河南</view>
-    <view class="table-td">37010</view>
-    <view class="table-td">8.3%</view>
-  </view>
-  <view class="table-tr">
-    <view class="table-td">江苏</view>
-    <view class="table-td">70116</view>
-    <view class="table-td">8.5%</view>
+  <view class="table-tr" wx:for="{{formData.listRow}}" wx:key="{{index}}">
+    <view class="table-td">{{item.x}}</view>
+    <view class="table-td">{{item.y}}</view>
+    <view class="table-td">{{item.z}}</view>
+    <view class="table-td">{{item.g}}</view>
   </view>
 </view>

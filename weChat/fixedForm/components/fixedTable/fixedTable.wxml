@@ -3,12 +3,18 @@
   <!-- S 固定列 -->
   <view class="table__fixed-columns">
     <!-- S 横竖方向都要固定的左上角单元格 -->
-    <view class="table__fixed-common tr">
+    <view class="table__fixed-common tr"
+      wx:for-item="item"
+      wx:for-index="index"
+      wx:for="{{fiedRows}}"
+      wx:key="{{index}}">
       <view class="fixed-th th"
-        wx:for="{{fixedCols[0]}}"
-        wx:key="{{index}}"
-        style="width: {{colWidths[index]}}rpx;">
-        {{item}}
+        wx:for-item="value"
+        wx:for-index="key"
+        wx:for="{{item}}"
+        wx:key="{{key}}"
+        style="width: {{colWidths[key]}}rpx;">
+        {{value}}
       </view>
     </view>
     <!-- E 横竖方向都要固定的左上角单元格 -->
@@ -41,12 +47,18 @@
   <scroll-view class="table" scroll-x>
     <!-- S 固定表头（完整） -->
     <view class="thead" style="width: {{totalWidth}}rpx;">
-      <view class="tr">
+      <view class="tr"
+        wx:for-item="item"
+        wx:for-index="index"
+        wx:for="{{thead}}"
+        wx:key="{{index}}">
         <view class="th"
-          wx:for="{{thead}}"
-          wx:key="{{index}}"
-          style="width: {{colWidths[index]}}rpx;">
-          {{item}}
+          wx:for-item="value"
+          wx:for-index="key"
+          wx:for="{{item}}"
+          wx:key="{{key}}"
+          style="width: {{colWidths[key]}}rpx;">
+          {{value}}
         </view>
       </view>
     </view>

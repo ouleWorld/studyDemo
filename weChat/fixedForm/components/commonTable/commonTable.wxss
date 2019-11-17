@@ -29,15 +29,20 @@
   /* 这个值指定一个元素表示表中的单个单元格，html元素th和td都属于table-cell元素 */
   display: table-cell; 
   font-weight: bold;
-  border: 1rpx solid gray;
+  /* border: 1rpx solid gray; */
   text-align: center;
   vertical-align: middle;
+  border-top: 1px solid #E6E6E6;
 }
 .table-td {
   display: table-cell;
-  border: 1rpx solid gray;
+  /* border: 1rpx solid gray; */
   text-align: center;
   vertical-align: middle;
+}
+.table-td:first-child,
+.table-th:first-child {
+  border-left: 1px solid #E6E6E6;
 }
 .table-tr > .table-th,
 .table-tr > .table-td {
@@ -45,6 +50,8 @@
   /* 如果需要验证正点：注释掉 min-width，添加上一个 width即可 */
   min-width: 150rpx;
   box-sizing: border-box;
+  border-right: 1px solid #E6E6E6;
+  border-bottom: 1px solid #E6E6E6;
 }
 
 .scroll-box {

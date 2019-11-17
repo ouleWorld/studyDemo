@@ -5,7 +5,9 @@ Page({
     tableData: [
       ['Full Name', 'Age', 'Column 1', 'Column 2', 'Column 3', 'Column 4']
     ],
-    fixedColsNum: 2,
+    fixedColsNum: 3,
+    fixedRowsNum: 3,
+    showColsNumber: 4,
     tbodyHeight: 504, //wx.getSystemInfoSync().windowHeight
   },
   onLoad: function () {
