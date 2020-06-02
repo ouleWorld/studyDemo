@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb5a036a-5e25-494e-a24e-fe3f16f96ceb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../devServer/a.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nodeProxy/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nodeProxy/bridge.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nodeProxy/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nodeProxy/server.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../codeDevelop/parse.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../react/Portals/src/ComponentA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../react/Portals/src/Portals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../react/ahelloworldNode/src/express/express.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../react/ahelloworldNode/src/static/js/api/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../react/ahelloworldNode/src/static/js/api/ip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../react/ahelloworldNode/src/static/js/api/todo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../react/ahelloworldNode/src/static/js/component/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../react/ahelloworldNode/src/template/csr.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../react/ahelloworldNode/src/template/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../react/contextDemo/src/theme-context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../react/contextDemo/src/theme-toggler-button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../react/contextDemo/src/themed-button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../react/reactPrinciple/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../react/reactPrinciple/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../react/reactPrinciple/createElement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../react/reactPrinciple/jsx.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="630">
-              <caret line="21" column="34" lean-forward="true" selection-end-line="35" selection-end-column="1" />
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -86,6 +96,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -97,7 +108,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -164,14 +174,16 @@
       <workItem from="1587834080944" duration="599000" />
       <workItem from="1587878877053" duration="983000" />
       <workItem from="1587880213043" duration="5808000" />
+      <workItem from="1589191273453" duration="14000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38248000" />
+    <option name="totallyTimeSpent" value="38262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17228661" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -236,19 +248,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="730">
-          <caret line="699" column="19" selection-start-line="699" selection-start-column="13" selection-end-line="699" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test.js" />
     <entry file="file://$PROJECT_DIR$/../../studyDemo/oulaeFunction/JavaScript.js" />
     <entry file="file://$PROJECT_DIR$/data.js" />
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
-          <caret line="21" column="34" lean-forward="true" selection-end-line="35" selection-end-column="1" />
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>

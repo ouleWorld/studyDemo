@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75b6e3a9-2c8c-4c59-88cf-4d409aac43b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/devServer/a.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nodeProxy/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nodeProxy/bridge.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nodeProxy/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nodeProxy/server.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../codeDevelop/parse.js" beforeDir="false" />
-    </list>
+    <list default="true" id="75b6e3a9-2c8c-4c59-88cf-4d409aac43b8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -21,18 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nodeProxy/bridge.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2548" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="812">
+              <caret line="112" column="6" lean-forward="true" selection-start-line="112" selection-start-column="6" selection-end-line="112" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -125,12 +110,12 @@
       <workItem from="1587689560772" duration="1916000" />
       <workItem from="1587880559345" duration="1796000" />
       <workItem from="1587908703652" duration="621000" />
-      <workItem from="1587932883541" duration="1030000" />
+      <workItem from="1587932883541" duration="2863000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5363000" />
+    <option name="totallyTimeSpent" value="7196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -179,15 +164,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodeProxy/bridge.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2548" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeProxy/bridge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="112" column="6" lean-forward="true" selection-start-line="112" selection-start-column="6" selection-end-line="112" selection-end-column="6" />
         </state>
       </provider>
     </entry>
