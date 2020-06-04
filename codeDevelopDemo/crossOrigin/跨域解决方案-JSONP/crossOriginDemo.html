@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>跨域demo</title>
+    <style type="text/css">
+        .ajaxButton {
+            width: 100px;
+            height: 50px;
+            background: blue;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .userMoudle {
+            width: 300px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        .name {
+            width: auto;
+        }
+    </style>
+</head>
+<body>
+<div class="userMoudle">
+    <div class="name">用户姓名:</div>
+    <div class="nameInfo"></div>
+</div>
+<script>
+    const changeInfo = (name) => {
+        let ele = document.querySelector('.nameInfo')
+        ele.innerHTML = name
+    }
+</script>
+<script src="http://localhost:2300/api/getuserinfo/jsonp?callback=changeInfo"></script>
+</body>
+</html>
